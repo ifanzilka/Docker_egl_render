@@ -1,4 +1,6 @@
 # Docker_egl_render
 
 
-''' bash entrypoint.sh '''
+### Запсук скрипта для инициализации виртуального дисплея
+
+``` bash entrypoint.sh ```
