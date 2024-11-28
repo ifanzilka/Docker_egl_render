@@ -1,5 +1,14 @@
 # Docker_egl_render
 
+### Сборка образа
+
+        docker build -t egl_render .
+
+### Запуск образа
+        docker run -it --gpus all egl_render egl_render_container
+
+### Вход в образ
+        docker exec -it egl_render_container bash
 
 ### Запсук скрипта для инициализации виртуального дисплея
 
